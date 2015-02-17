@@ -17,7 +17,6 @@
 		0C22BC53195C6EAD0025F58F /* PaperFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22BC4B195C6EAD0025F58F /* PaperFoldView.m */; };
 		0C22BC54195C6EAD0025F58F /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22BC4D195C6EAD0025F58F /* ShadowView.m */; };
 		0C22BC55195C6EAD0025F58F /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22BC4F195C6EAD0025F58F /* UIView+Screenshot.m */; };
-		0C22BC57195C6EB60025F58F /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C22BC56195C6EB60025F58F /* Reveal.framework */; };
 		0C22BC5D195C6FD60025F58F /* DemoMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22BC5A195C6FD60025F58F /* DemoMenuController.m */; };
 		0C2397ED194B69D9004098A0 /* louis@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C2397EC194B69D9004098A0 /* louis@2x.jpg */; };
 		0C2397EF194B810F004098A0 /* louisAnim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C2397EE194B810F004098A0 /* louisAnim.gif */; };
@@ -31,11 +30,6 @@
 		0C269686192E5C1F0086D694 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C269685192E5C1F0086D694 /* SystemConfiguration.framework */; };
 		0C279E521949F1F700853439 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C279E511949F1F700853439 /* UIImage+animatedGIF.m */; };
 		0C33F30C197813F100DFA202 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C33F30B197813F100DFA202 /* AddressBook.framework */; };
-		0C3B782C1A0EA44D00F1D356 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C789DBD1982FB4C004C49F7 /* NotificationCenter.framework */; };
-		0C3B78321A0EA44D00F1D356 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B78311A0EA44D00F1D356 /* TodayViewController.m */; };
-		0C3B78341A0EA44D00F1D356 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3B78331A0EA44D00F1D356 /* MainInterface.storyboard */; };
-		0C3B78371A0EA44D00F1D356 /* Trafic Montreal Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0C3B782B1A0EA44D00F1D356 /* Trafic Montreal Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0C3B783C1A0EA66800F1D356 /* TMBridgeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D581E192FDA1C003BCB15 /* TMBridgeInfo.m */; };
 		0C3E28B41976C3C6008541EE /* BVReorderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E28B31976C3C6008541EE /* BVReorderTableView.m */; };
 		0C3E28B61976C979008541EE /* charles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E28B51976C979008541EE /* charles.jpg */; };
 		0C4723CC1961AC99004B9DA3 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4723CB1961AC99004B9DA3 /* libGoogleAnalyticsServices.a */; };
@@ -106,16 +100,10 @@
 		0CF18670192E8559000888CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF1866F192E8559000888CC /* MapKit.framework */; };
 		0CF598EF192E704A00E6A895 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CF598EE192E704A00E6A895 /* Locations.plist */; };
 		0CFFC92E1933D608000E8AAB /* mercier@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CFFC92D1933D608000E8AAB /* mercier@2x.jpg */; };
+		41A4206025A745F4AE67EFA5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE74C9AFBD4468CB4FE494E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C3B78351A0EA44D00F1D356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CB66D70192E5B550093C129 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C3B782A1A0EA44D00F1D356;
-			remoteInfo = "Trafic MTL";
-		};
 		0CB66D9E192E5B560093C129 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0CB66D70192E5B550093C129 /* Project object */;
@@ -132,7 +120,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0C3B78371A0EA44D00F1D356 /* Trafic Montreal Widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +127,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B97B361F5CA41436F356DBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		0C013DB9193CDD7700AC6242 /* splash_fr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_fr@2x.png"; sourceTree = "<group>"; };
 		0C059ABE1975CF31001A0861 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0C059AC01975CF3F001A0861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/Default@2x.png"; sourceTree = "<group>"; };
@@ -179,7 +167,6 @@
 		0C279E501949F1F700853439 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
 		0C279E511949F1F700853439 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		0C33F30B197813F100DFA202 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		0C3B782B1A0EA44D00F1D356 /* Trafic Montreal Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Trafic Montreal Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B782F1A0EA44D00F1D356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3B78301A0EA44D00F1D356 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		0C3B78311A0EA44D00F1D356 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
@@ -273,19 +260,11 @@
 		0CF1866F192E8559000888CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0CF598EE192E704A00E6A895 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 		0CFFC92D1933D608000E8AAB /* mercier@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mercier@2x.jpg"; sourceTree = "<group>"; };
+		0FBF9CBBC80C2DBA1ACB4D1A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7CE74C9AFBD4468CB4FE494E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		97477C0927FD40848CFBF80F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C3B78281A0EA44D00F1D356 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C3B782C1A0EA44D00F1D356 /* NotificationCenter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CB66D75192E5B550093C129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,7 +274,6 @@
 				0C7C4B56195B16D0004FAE6E /* CoreData.framework in Frameworks */,
 				0CF18670192E8559000888CC /* MapKit.framework in Frameworks */,
 				0C269686192E5C1F0086D694 /* SystemConfiguration.framework in Frameworks */,
-				0C22BC57195C6EB60025F58F /* Reveal.framework in Frameworks */,
 				0C269684192E5C170086D694 /* QuartzCore.framework in Frameworks */,
 				0C269682192E5C120086D694 /* libz.dylib in Frameworks */,
 				0C269680192E5C0B0086D694 /* libsqlite3.dylib in Frameworks */,
@@ -303,6 +281,7 @@
 				0CB66D80192E5B550093C129 /* UIKit.framework in Frameworks */,
 				0CB66D7C192E5B550093C129 /* Foundation.framework in Frameworks */,
 				0C4723CC1961AC99004B9DA3 /* libGoogleAnalyticsServices.a in Frameworks */,
+				41A4206025A745F4AE67EFA5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +482,7 @@
 				0C3B782D1A0EA44D00F1D356 /* Trafic MTL */,
 				0CB66D7A192E5B550093C129 /* Frameworks */,
 				0CB66D79192E5B550093C129 /* Products */,
-				97477C0927FD40848CFBF80F /* Pods.xcconfig */,
+				99EB75A5E195F7BA3358D16B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -512,7 +491,6 @@
 			children = (
 				0CB66D78192E5B550093C129 /* Trafic Montreal.app */,
 				0CB66D99192E5B560093C129 /* Trafic MontrealTests.xctest */,
-				0C3B782B1A0EA44D00F1D356 /* Trafic Montreal Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -604,26 +582,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		99EB75A5E195F7BA3358D16B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B361F5CA41436F356DBB /* Pods.debug.xcconfig */,
+				0FBF9CBBC80C2DBA1ACB4D1A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C3B782A1A0EA44D00F1D356 /* Trafic Montreal Widget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C3B78381A0EA44D00F1D356 /* Build configuration list for PBXNativeTarget "Trafic Montreal Widget" */;
-			buildPhases = (
-				0C3B78271A0EA44D00F1D356 /* Sources */,
-				0C3B78281A0EA44D00F1D356 /* Frameworks */,
-				0C3B78291A0EA44D00F1D356 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Trafic Montreal Widget";
-			productName = "Trafic MTL";
-			productReference = 0C3B782B1A0EA44D00F1D356 /* Trafic Montreal Widget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		0CB66D77192E5B550093C129 /* Trafic Montreal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CB66DAA192E5B560093C129 /* Build configuration list for PBXNativeTarget "Trafic Montreal" */;
@@ -638,7 +608,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0C3B78361A0EA44D00F1D356 /* PBXTargetDependency */,
 			);
 			name = "Trafic Montreal";
 			productName = "Traffic MTL";
@@ -673,15 +642,6 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Développements Third Bridge Inc.";
 				TargetAttributes = {
-					0C3B782A1A0EA44D00F1D356 = {
-						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 4HXZK4QW3Z;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 					0CB66D77192E5B550093C129 = {
 						DevelopmentTeam = 4HXZK4QW3Z;
 						SystemCapabilities = {
@@ -711,20 +671,11 @@
 			targets = (
 				0CB66D77192E5B550093C129 /* Trafic Montreal */,
 				0CB66D98192E5B560093C129 /* Trafic MontrealTests */,
-				0C3B782A1A0EA44D00F1D356 /* Trafic Montreal Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C3B78291A0EA44D00F1D356 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C3B78341A0EA44D00F1D356 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CB66D76192E5B550093C129 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -827,21 +778,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C3B78271A0EA44D00F1D356 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C3B78321A0EA44D00F1D356 /* TodayViewController.m in Sources */,
-				0C3B783C1A0EA66800F1D356 /* TMBridgeInfo.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CB66D74192E5B550093C129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -879,11 +821,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C3B78361A0EA44D00F1D356 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C3B782A1A0EA44D00F1D356 /* Trafic Montreal Widget */;
-			targetProxy = 0C3B78351A0EA44D00F1D356 /* PBXContainerItemProxy */;
-		};
 		0CB66D9F192E5B560093C129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0CB66D77192E5B550093C129 /* Trafic Montreal */;
@@ -919,46 +856,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0C3B78391A0EA44D00F1D356 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = "Trafic MTL/Trafic MTL.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Trafic MTL/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0C3B783A1A0EA44D00F1D356 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = "Trafic MTL/Trafic MTL.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Trafic MTL/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		0CB66DA8192E5B560093C129 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1031,7 +928,7 @@
 		};
 		0CB66DAB192E5B560093C129 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97477C0927FD40848CFBF80F /* Pods.xcconfig */;
+			baseConfigurationReference = 0B97B361F5CA41436F356DBB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1068,7 +965,7 @@
 		};
 		0CB66DAC192E5B560093C129 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97477C0927FD40848CFBF80F /* Pods.xcconfig */;
+			baseConfigurationReference = 0FBF9CBBC80C2DBA1ACB4D1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1145,14 +1042,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C3B78381A0EA44D00F1D356 /* Build configuration list for PBXNativeTarget "Trafic Montreal Widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C3B78391A0EA44D00F1D356 /* Debug */,
-				0C3B783A1A0EA44D00F1D356 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		0CB66D73192E5B550093C129 /* Build configuration list for PBXProject "Trafic Montreal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
