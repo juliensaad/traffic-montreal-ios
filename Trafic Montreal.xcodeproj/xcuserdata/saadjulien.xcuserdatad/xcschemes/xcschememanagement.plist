@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Trafic MTL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Trafic Montreal Widget.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Trafic Montreal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Trafic Mtl.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C1994D11A05E6570097B2E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C1994E61A05EC070097B2E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C3B782A1A0EA44D00F1D356</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C789DBB1982FB4C004C49F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CB66D77192E5B550093C129</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CB66D98192E5B560093C129</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CD1E6AE19FC1F8D00BEBC94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
